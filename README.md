@@ -6,5 +6,33 @@ We obtained depth images from the RGBD camera and processed the noisy pointcloud
 <br>
 Click on the link to view the results : <a href="https://youtu.be/VeuRKfGhZqA"> Video</a>
 
-## Steps
+## Results
+
+For single layer rebar network : <br>
+
+<table>
+  <tr>
+      <td align = "center"> <img src="./images/raw_image.PNG"> </td>
+      <td align = "center"> <img src="./images/int_pose_2d.PNG"> </td>
+  </tr>
+  <tr>
+      <td align = "center"> Raw images from the RGBD</td>
+      <td align = "center"> Detected intersections</td>
+  </tr>
+</table>
+
+<br>
+
+For multilayer rebar network : <br>
+
+<table>
+  <tr>
+      <td align = "center"> <img src="./images/with_obj_raw.PNG"> </td>
+      <td align = "center"> <img src="./images/with_obj_int_pose_2d.PNG" width="500" height="320"> </td>
+  </tr>
+  <tr>
+      <td align = "center"> Raw images from the RGBD</td>
+      <td align = "center"> Detected intersections</td>
+  </tr>
+</table>
 
